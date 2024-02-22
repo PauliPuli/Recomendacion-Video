@@ -1,7 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+ --dark:#1b2936;
+ --blue:#364e67;
+ --purple:#4a3667;
+ --magenta:#673661;
+ --fondo:#efe9f3;
+}
 body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 img {
-    width: 10%;
+    width: 7%;
+}
+.multimedia {
+    background-color: var(--dark);
+}
+.musica{
+    background-color: var(--blue);
+
+}
+.pelicula {
+    background-color: var(--purple);
+
+}
+.serie {
+    background-color: var(--magenta);
+
+}
+.btn-link{
+    color: white;
+}
+.fondo {
+    background-color: var(--fondo);
 }
